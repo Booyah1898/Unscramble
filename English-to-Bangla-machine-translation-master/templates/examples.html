@@ -1,0 +1,10 @@
+{% extends "layout1.html"%}
+{% block content %}
+<div class="black-text">
+{%for i in outeng%}
+<p >{{outeng[i]}}</p>
+<p >{{outban[i]}}</p>
+<br>
+{%endfor%}
+</div>
+{% endblock content%}
